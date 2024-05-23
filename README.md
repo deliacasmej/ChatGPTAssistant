@@ -1,2 +1,2 @@
 # ChatGPTAssistant
-Used chatgpt to create quick chatbot assistant
+Used OpenAI to create quick chatbot assistant
