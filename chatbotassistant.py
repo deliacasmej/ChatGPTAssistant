@@ -8,6 +8,7 @@ def chat_with_me(prompt):
     #role:system can be removed to have regular chatbot
     response = openai.chat.completions.create(
         model="gpt-3.5-turbo",
+        # you can test out what ever "personality" you want your assistant to have
         messages=[{"role":"system", "content": "you are a sassy assistant"},
                   {"role":"user", "content": prompt}]
     )
